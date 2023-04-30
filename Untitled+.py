@@ -1,3 +1,5 @@
+print('Welcome to COBALT!')
+
 def ifItem(first, second):
     if first == second:
         print(True)
@@ -13,5 +15,3 @@ def getValue(value, getSpecificValueInList, specificValue, pos):
     
     if getSpecificValueInList == True:
         print(value.split('[')[1].split(specificValue)[pos])
-
-
