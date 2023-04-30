@@ -15,4 +15,3 @@ def getValue(value, getSpecificValueInList, specificValue, pos):
         print(value.split('[')[1].split(specificValue)[pos])
 
 
-getValue('testing:[thing:buddy]', False, False, False)
